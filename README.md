@@ -16,7 +16,7 @@
 ---  
 
 ## **Live Demo**  
-🔗 [Live Preview](#) *(Replace with your hosted demo link)*  
+🔗 [Live Preview](#) *(https://mdjahidshah.github.io/gaming-ecommerce-template/)*  
 
 ---  
 
