@@ -1,0 +1,297 @@
+/*Md Jahid Shah*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+
+/*	Typography presets
+	------------------	*/
+
+.gigantic {
+	font-size: 110px;
+	line-height: 120px;
+	letter-spacing: -2px;
+}
+
+.huge, h1 {
+	font-size: 68px;
+	line-height: 72px;
+	letter-spacing: -1px;
+}
+
+.large, h2 {
+	font-size: 35px;
+	line-height: 40px;
+}
+
+.bigger, h3 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.big, h4 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+body {
+	font: 16px/24px Georgia, serif;
+}
+
+.small, small {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+
+
+
+/*		Default Layout: 1080px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) and (max-width: 1384px){
+	
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.container{width:98%;}
+	
+	#right-header ul li {margin-left: 5px;}
+	#right-header ul li h3 {font-size: 14px;}
+	#right-header ul li img {width: 30px;height: 30px;}
+	.text {width: 80%;}
+	.post,.post-ads,.electron-i {width: 31.5%;}
+	
+	.js, .production, .help, .business {width: 31%;}
+	.footer-p {width: 76%;}
+	.nav-ads a img {
+		margin: 2px 0 0 0;
+	}
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.container{width:98%;padding-left: 0px;}
+
+	
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.container{width: 98%;padding-left: 0px;}
+	.logo{width:20%;}
+	.header {
+    height: 100px;
+	}
+	#right-header{margin-top:0;}
+	#right-header ul li img {
+    width: 20px;
+    height: 20px;
+	}
+	#right-header ul li h3 {
+    margin-top: -8px;
+	}
+	#left-header,#right-header {
+    width: 100%;
+	float:left;
+    }
+	.search {
+    float: right;
+    width: 48%;
+	padding:0;
+	margin-top:21px;
+	}
+	.text {
+    width: 196px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5%;
+	}
+	.search button {
+    float: right;
+    padding: 6px 7px;
+    margin-top: 1px;
+    margin-right: -1px;
+	}
+		.nav-ads {
+    margin: -30px 0 0 0;
+	}
+	.nav ul {
+	width: 55%;
+	}
+	.left-image {
+    width: 100%;
+    float: left;
+	}
+	.right-image {
+    width: 100%;
+    }
+	.left-post,.left-post-ads,.left-electronics {
+    width: 100%;
+	float:none;
+	}
+	.post, .post-r,.post-ads,.electron-i,.right-electronics img {
+    width: 99.5%;
+    height: auto;
+	margin: 10px 0 30px 0
+	}
+	.post-image img, .post-r-image img,.right-image img {height: 270px;}
+	
+	.right-post,.right-post-ads,.right-electronics {
+    width: 100%;
+	float:left;
+	height: auto;
+	}
+	.js,.production,.help,.business{width:46%;}
+	.footer-p {width: 99%;}
+	.nav-ads a img {
+		margin: 2px 0 0 0;
+	}
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	.container{width: 98%;padding-left: 0px;}
+	.container{width: 98%;padding-left: 0px;}
+	.logo{width:20%;}
+	.header {
+    height: 100px;
+	}
+	#right-header{margin-top:0;}
+	#right-header ul li img {
+    width: 20px;
+    height: 20px;
+	}
+	#right-header ul li h3 {
+    margin-top: -8px;
+	}
+	#left-header,#right-header {
+    width: 100%;
+	float:left;
+    }
+	.search {
+    float: right;
+    width: 56%;
+	padding:0;
+	margin-top:21px;
+	}
+	.text {
+    width: 168px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5%;
+	}
+	.search button {
+    float: right;
+    padding: 6px 7px;
+    margin-top: 1px;
+    margin-right: -1px;
+	}
+		.nav-ads {
+    margin: -30px 0 0 0;
+	width: 55%;
+	}
+	.nav ul {
+	width: 45%;
+	}
+	.left-image {
+    width: 100%;
+    float: left;
+	}
+	.right-image {
+    width: 100%;
+    }
+	.left-post,.left-post-ads,.left-electronics {
+    width: 100%;
+	float:none;
+	}
+	.post, .post-r,.post-ads,.electron-i,.right-electronics img {
+    width: 99.5%;
+    height: auto;
+	margin: 10px 0 30px 0
+	}
+	.js h3, .production h3, .help h3, .business h3 {font-size: 15px;}
+	
+	.post-image img, .post-r-image img,.right-image img {height: 270px;}
+	
+	.right-post,.right-post-ads,.right-electronics {
+    width: 100%;
+	float:left;
+	height: auto;
+	}
+	.js,.production,.help,.business{width:45%;}
+	.footer-p {width: 99%;}
+	.footer-bg {
+		padding: 0 10px;
+	}
+	.nav-ads a img {
+		margin: 2px 0 0 0;
+	}
+	.cat-middle {
+		padding:0 0 10% 23px;
+	}
+	.divflexpay,.divflex {
+		display: flex;
+		flex-direction: column;
+		align-content: space-around;
+		padding: 0 20px;
+	}
+}
