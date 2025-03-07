@@ -24,7 +24,7 @@
 
 ### **1. Clone the Repository**  
 ```bash
-git clone https://github.com/mdjahidshah/gaming-ecommerce-template.git
+git clone https://github.com/MdJahidShah/gaming-ecommerce-template.git
 ```
 or download the ZIP file from GitHub.  
 
