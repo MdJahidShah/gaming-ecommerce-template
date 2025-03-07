@@ -1,0 +1,2 @@
+# gaming-ecommerce-template
+ Gaming Store Website Template is a modern, responsive, and customizable website template built using HTML, CSS, and JavaScript. It is designed for online stores selling gaming products like video games, consoles, accessories, and more. This template features a sleek design, smooth animations, and an intuitive user interface, making it perfect for gaming eCommerce businesses.
