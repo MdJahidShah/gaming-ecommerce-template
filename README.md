@@ -18,7 +18,9 @@
 ## **Live Demo**  
 🔗 [Live Preview](#) *(https://mdjahidshah.github.io/gaming-ecommerce-template/)*  
 
----  
+---
+## **Desktop view Image**
+![Gaming Store Website Template](https://mdjahidshah.github.io/gaming-ecommerce-template/gaming-ecommerce-template.png)
 
 ## **Installation & Setup**  
 
